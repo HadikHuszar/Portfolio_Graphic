@@ -1,2 +1,2 @@
 # Portfolio_Graphic
-Graphic Version of Portfolio
+Graphic Version of Elizabeth Hadik-Barkoczy's Portfolio
