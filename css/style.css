@@ -408,6 +408,7 @@ video {
 @media screen and (max-width: 767px) {
   .label-logo:hover:after {
     content: "elizabeth.";
+    color: #888888;
   }
 }
 .label-logo {
@@ -755,7 +756,7 @@ video {
     text-align: center;
     width: 100%;
     font-family: "Medium";
-    color: #ffffff;
+    color: #888888;
     position: fixed;
     bottom: 4%;
     font-size: 0.6em; /* general fallback */
@@ -805,17 +806,19 @@ video {
   cursor: pointer;
 }
 .label-email:after {
-  content: "hello@elizabeth.work";
+  content: attr(data-website) "krow.htebazile\0040olleh"attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 .label-email:hover:after {
-  content: "Copy to clipboard";
+  content: "draobpilc ot ypoC";
 }
 .label-email:hover:active:after {
-  content: "Email copied";
+  content: "deipoc liamE";
 }
 @media screen and (max-width: 767px) {
   .label-email:hover:after {
-    content: "Copied to clipboard";
+    content: "draobpilc ot ypoC";
   }
 }
 
@@ -873,6 +876,12 @@ video {
     max-width: 100%;
     margin: auto;
   }
+}
+
+.max-width-100 {
+  align-content: right;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .links a {
