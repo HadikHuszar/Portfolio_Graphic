@@ -160,6 +160,9 @@ body {
 .text-color-gray {
   color: #888888;
 }
+.text-color-almostblack {
+  color: #595555;
+}
 
 /* ------ Text styles ------ */
 .underline {
@@ -806,7 +809,7 @@ video {
   cursor: pointer;
 }
 .label-email:after {
-  content: attr(data-website) "moc.yzcokrab-kidah\0040htebazile"attr(data-user);
+  content: "moc.yzcokrab-kidah\0040htebazile";
   unicode-bidi: bidi-override;
   direction: rtl;
 }
