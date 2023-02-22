@@ -915,8 +915,7 @@ video {
 
 .video {
   /* margin: 8vh 0; */
-  /* margin: 10px 50px 20px; */
-  margin: 1em;
+  margin: 80px 50px 20px;
 }
 @media screen and (max-width: 767px) {
   .video {
