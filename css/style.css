@@ -278,6 +278,10 @@ b {
   font-family: "Medium";
 }
 
+.bold {
+  font-family: "Semibold";
+}
+
 i {
   font-style: italic;
 }
