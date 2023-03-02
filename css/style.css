@@ -290,6 +290,10 @@ b {
   letter-spacing: -2px;
 }
 
+.squeeze {
+  font-size: 99%;
+}
+
 /* ------ List ------ */
 ul {
   line-height: 180%;
