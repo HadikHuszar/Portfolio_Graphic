@@ -286,6 +286,10 @@ b {
   font-style: italic;
 }
 
+.tight {
+  letter-spacing: -2px;
+}
+
 /* ------ List ------ */
 ul {
   line-height: 180%;
